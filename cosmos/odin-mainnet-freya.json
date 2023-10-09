@@ -1,9 +1,16 @@
 {
-  "chainId": "odin-mainnet-freya",
-  "chainName": "ODIN",
   "rpc": "https://node.odin-freya-website.odinprotocol.io/mainnet/a/",
   "rest": "https://node.odin-freya-website.odinprotocol.io/mainnet/a/api/",
+  "chainId": "odin-mainnet-freya",
+  "chainName": "ODIN",
   "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/odin-mainnet-freya/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "odin",
+    "coinMinimalDenom": "loki",
+    "coinDecimals": 6,
+    "coinGeckoId": "odin-protocol",
+    "coinImageUrl":  "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/odin-mainnet-freya/chain.png"
+  },
   "nodeProvider": {
     "name": "Odin Protocol",
     "email": "hello@odinprotocol.io",
@@ -53,11 +60,6 @@
       }
     }
   ],
-  "stakeCurrency": {
-    "coinDenom": "odin",
-    "coinMinimalDenom": "loki",
-    "coinDecimals": 6,
-    "coinGeckoId": "odin-protocol"
-  },
+  
   "coinType": 118
 }
